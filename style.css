@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: gray;
+}
+.mytabs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+}
+button{
+    padding: 20px;
+    background: #e2f2f2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.mytabs .tab{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    order:1;
+    display: none;
+    
+}
+.tab-btn.active{
+    background-color: aliceblue;
+}
+.tab.active{
+    display: block;
+}
